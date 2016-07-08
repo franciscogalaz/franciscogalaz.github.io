@@ -11,21 +11,29 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
+  
 }
 
 header h1 {
   font-weight: 700;
   margin: 0;
+font-style:italic;
+    color: black;
+
 }
 
 header nav {
   display: flex;
   justify-content: flex-end;
+    padding:0 20px;
+
 }
 
 header p {
   padding: 0 20px;
   margin: 0;
+    color:black;
+
 }
 
 .jumbotron {
@@ -110,4 +118,10 @@ color:black;
 line-height:500px;
 text-align:center;
 background:#000
+}
+
+a:visited, a:hover{
+    text-decoration: none;
+    color:inherit;
+    
 }
