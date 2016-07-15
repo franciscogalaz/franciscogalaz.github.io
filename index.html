@@ -4,6 +4,10 @@
   <title>Comfy S.A</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			swfobject.registerObject("juegosPancho", "9.0.0");
+		</script>
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="main.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -26,10 +30,11 @@
         </span>
         <a href="index.html"> Comfy</a>
         </h1>
-    <nav class="col-sm-8 text-right">
+    <nav class="bottom-align-text col-sm-8 text-right">
       <p>Nuestros Productos</p>
       <p>Sobre Nosotros</p>
-        <a href="#"><p>Contacto</p></a>
+      <a href="#"><p>Contacto</p></a>
+        <a href="#"><img src="carrito.png"></img></a>
     </nav>
     </div>
   
@@ -44,35 +49,38 @@
     </div>       
   </section>
 <section class="container">
-  <div class="row">
-    <figure class="col-sm-6"> 
-      <p>
-      Polerones
-      </p>
-         <img src="https://www.limitesur.cl/spree/products/734/large/hombre-mostaza-cerrado.jpg?1433793798"/>
-    </figure>
-    <figure class="col-sm-6">
-      <p>
-        Poleras
-      </p>
-      <img src="http://www.garmendia.cl/771-thickbox_default/polera-algod%C3%B3n-azul-gruesa.jpg"/>
-    </figure>
-  </div>
-  <div class="row">
-    <figure class="col-sm-6">
-      <p>
-      Calcetines
-      </p>
-      <img src="https://barcelonatrail.files.wordpress.com/2014/08/injinji-trail.jpg"/>      
-    </figure>
-    <figure class="col-sm-6">
-     <p>
-       Calzoncillos
-      </p> 
-      <img src="http://slimages.macysassets.com/is/image/MCY/products/5/optimized/1101065_fpx.tif?01AD=32NtwaEcrcXZ2m6jTDSF9xm_xV-iFwJaUk2g8NdY9gX1VO-vhHf_nDg&01RI=D33CC17B4F39DCF&01NA=na&op_sharpen=1&wid=400&hei=489&fit=fit,1&$filterlrg$"/>
-    </figure>
-  </div>
+  
+    <div id="juegos" class="row">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="juegosPancho"  name="" class="" align="">
+				<param name="movie" value="DisparaBotella.swf" />
+				<param name="bgcolor" value="#FFFFFF" />
+				<param name="play" value="false" />
+				<param name="loop" value="true" />
+				<param name="quality" value="autohigh" />
+				
+				<param name="flashvars" value="" />
+				  				
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="DisparaBotella.swf" width="100%" height="100%" class="" align="">
+				<param name="bgcolor" value="#FFFFFF" />
+				<param name="play" value="false" />
+				<param name="loop" value="true" />
+				<param name="quality" value="autohigh" />
+				
+				<param name="flashvars" value="" />				
+				<!--<![endif]-->
+					Get <a href="http://www.adobe.com/go/getflash">Adobe Flash Player</a>.
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+    
+
 </section>
+    
+    
+    
   <footer class="container">
   <div class="row">
     <p class="col-sm-4">

@@ -4,13 +4,14 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 2% 0;
+
 }
 
 header .row,
 footer .row {
   display: flex;
-  align-items: center;
+  align-items:baseline;
   
 }
 
@@ -72,17 +73,30 @@ font-style:italic;
 }
 
 header nav {
-  display: flex;
+  display:inline-flex;
   justify-content: flex-end;
     padding:0 20px;
 
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-    color:black;
+.row{
+    position:relative;
+}
 
+.bottom-align-text{
+    position:absolute;
+    bottom: 0;
+    right:0;
+    vertical-align: bottom;
+    align-items: flex-end;
+}
+
+header p {
+  padding: 0 15px ;
+  margin: 0px;
+    color:black;
+    
+    
 }
 
 .jumbotron {
@@ -138,6 +152,12 @@ section .row img {
   margin: 0 0 30px;
 }
 
+#juegos{
+    display:flex;
+    align-items: center;
+    
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
@@ -162,5 +182,6 @@ footer li img {
 a, a:visited, a:hover, a:active{
     text-decoration:none;
     color:inherit;
+    height: 100%;
     
 }
