@@ -155,6 +155,8 @@ section .row img {
 #juegos{
     display:flex;
     align-items: center;
+    height: 300px;
+    
     
 }
 
